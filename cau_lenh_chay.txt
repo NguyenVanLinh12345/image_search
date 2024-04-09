@@ -1,0 +1,5 @@
+Train:
+python3 index.py -d ../images/ -i ../index/index.csv
+
+Search:
+python3 search.py -i ../index/index.csv -q ../query/qimg1.png -r ../images/
